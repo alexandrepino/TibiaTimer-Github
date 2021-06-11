@@ -1,0 +1,14 @@
+br/com/tibiatimer/model/dao/RingDAO.class
+br/com/tibiatimer/view/MenuPrincipal$1.class
+br/com/tibiatimer/model/Ring.class
+br/com/tibiatimer/model/dao/Banco.class
+br/com/tibiatimer/model/Magic.class
+br/com/tibiatimer/model/dao/AmuletDAO.class
+br/com/tibiatimer/view/MenuPrincipal.class
+br/com/tibiatimer/view/Timer.class
+br/com/tibiatimer/model/Amulet.class
+br/com/tibiatimer/model/dao/MagicDAO.class
+br/com/tibiatimer/model/Item.class
+br/com/tibiatimer/view/MenuPrincipal$2.class
+br/com/tibiatimer/view/Timer$1.class
+br/com/tibiatimer/model/EnumItem.class
