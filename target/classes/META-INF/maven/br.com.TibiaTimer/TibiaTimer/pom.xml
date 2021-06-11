@@ -3,6 +3,8 @@
   <groupId>br.com.TibiaTimer</groupId>
   <artifactId>TibiaTimer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -18,6 +20,11 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
+          <archive>
+          <manifest>
+          <mainClass>src.br.com.tibiatimer.MenuPrincipal </mainClass> 
+          </manifest>
+          </archive>
           <release>11</release>
         </configuration>
       </plugin>
