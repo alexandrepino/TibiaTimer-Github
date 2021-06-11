@@ -13,8 +13,17 @@ import java.util.Date;
  */
 public class Magic extends Item {
 
-    public Magic(String nome, String descrição, Date duracao) {
-        super(nome, descrição, duracao);
+	public Magic() {
+		super();
+		
+	}
+
+	public Magic(EnumItem tipo, String nome, String descrição, Date duracao) {
+		super(EnumItem.MAGIC, nome, descrição, duracao);
+		
+	}
+
+    
     }
     
     
@@ -23,4 +32,4 @@ public class Magic extends Item {
     
     
     
-}
+

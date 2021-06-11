@@ -9,6 +9,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
+
 /**
  *
  * @author Alexandre
@@ -16,25 +18,32 @@ import java.util.Date;
 public abstract class Item {
     
 	
-	
+    private EnumItem tipo;
     private String nome;
     private String descrição;
     private Date duracao;
+    
 
     
     
-    public Item(String nome, String descrição, Date duracao) {
-        this.nome = nome;
+    public Item(EnumItem tipo, String nome, String descrição, Date duracao) {
+        
+    	this.tipo = tipo;
+    	this.nome = nome;
         this.descrição = descrição;
-       
-			this.duracao = duracao;
+		this.duracao = duracao;
 		
     }
 
-    public Item() {
-    }
+ 
 
-    public String getNome() {
+	public Item() {
+		super();
+	}
+
+
+
+	public String getNome() {
         return nome;
     }
 
@@ -57,6 +66,25 @@ public abstract class Item {
     public void setDuracao(Date duração) {
         this.duracao = duração;
     }
+
+	public EnumItem getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(EnumItem tipo) {
+		this.tipo = tipo;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Item [tipo=" + tipo + "]";
+	}
+	
+	
+    
+    
     
     
     

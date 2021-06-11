@@ -13,10 +13,17 @@ import java.util.Date;
  */
 public class Amulet extends Item {
 
-    public Amulet(String nome, String descrição, Date duracao) {
-        super(nome, descrição, duracao);
-    }
-    
+	public Amulet() {
+		super();
+		
+	}
+
+	public Amulet(EnumItem tipo, String nome, String descrição, Date duracao) {
+		super(tipo.AMULET, nome, descrição, duracao);
+		
+	}
+
+   
     
     
     
