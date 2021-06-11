@@ -1,4 +1,4 @@
 # TibiaTimer-Github
 
 
-  Temporizador de cada item de acordo com duração.
+  Temporizador de cada item de acordo com a duração.
